@@ -1,0 +1,170 @@
+div {
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.barre_infos {
+  justify-content: space-around;
+}
+
+header {
+  background-color: rgb(228, 228, 228);
+}
+
+.fleche {
+  background-color: white;
+  border-radius: 100%;
+
+  color: darkturquoise;
+  font-size: 50px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.icones h3 {
+  border-bottom: 2px solid black;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.icon {
+  font-size: 30px;
+  padding-left: 40%;
+}
+
+.icones {
+  width: 50%;
+  margin: auto;
+}
+
+.icones .blue {
+  color: cornflowerblue;
+}
+.icones .red {
+  color: red;
+}
+.icones .dark_blue {
+  color: darkslateblue;
+}
+
+.main_text_title {
+  text-align: center;
+}
+
+.main_text {
+  width: 40%;
+  margin: auto;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+}
+
+.entete {
+  background-image: url(images/working.jpg);
+  height: 500px;
+}
+
+.text_entete {
+  padding: 0;
+  color: white;
+}
+
+.entete a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.entete a:hover {
+  border: none;
+  background-color: turquoise;
+}
+
+.cadre {
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.img2 {
+  width: 100%;
+}
+.img3 {
+  background-color: rgb(241, 240, 240);
+  width: 40%;
+}
+
+.texte_cadre {
+  width: 100%;
+  background-color: rgb(241, 240, 240);
+
+  padding: 0;
+}
+
+.icones_texte_cadre {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.icones_cadre {
+  background-color: darkturquoise;
+  border-radius: 100%;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
+.no_padding {
+  padding: 0;
+}
+
+.cadre a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.margin_bot {
+  margin-bottom: 50px;
+}
+
+.icones_reseaux {
+  border: 1px solid rgb(187, 187, 187);
+  padding: 10px;
+  margin: 5px;
+}
+header .d-flex {
+  padding: 0;
+}
